@@ -1,0 +1,145 @@
+
+<html>
+    <head>
+        <title>FWU</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+        <link rel="stylesheet" href="cass.css">
+        
+        <style>
+        
+        body
+        {
+        background-image: url("port.jpg");    
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+        
+        #but3{
+        background-color:black;
+        color: white;
+        border-radius: 5px;
+        border: none;
+        margin-left: 38%;
+        margin-top:3.5%;
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+        padding: 15px 32px;
+        box-shadow: 1px 1px 1px burlywood;
+        }
+         
+        .container {
+         position: fixed;
+         margin-top: 150px;
+         margin-left: 300px;
+         width: 800px;
+         height: 330px;
+         background-color: papayawhip;
+         border-radius:15px;
+         opacity: 0.9;
+         }
+         
+        </style>
+        
+    </head>
+    
+    <body>
+    
+        <form action="ns3" class="container" method="POST"> 
+        
+        <table style="margin-left:5%;margin-top: 50px">
+       <tr>
+         
+           <td id="la1"><a><b>DEPARTURE</b></a></td>
+       
+           <td>
+               
+           <select id="dp1" name="drop1">
+               
+           <option value="bom">BOM-MUMBAI</option>
+           <option value="del">DEL-DELHI</option>
+           <option value="blr">BLR-BENGALURU</option>
+           <option value="maa">MAA-CHENNAI</option>
+           <option value="ccu">CCU-KOLKATA</option>
+           <option value="hyd">HYD-HYDERABAD</option>
+           <option value="cok">COK-KOCHI</option>
+           <option value="amd">AMD-AHMEDABAD</option>
+           <option value="pnq">PNQ-PUNE</option>
+           <option value="goi">GOI-GOA</option>
+           
+       </select>
+       </td>
+       
+       
+       <td id="la2"><a><b>ARRIVAL</b></a></td>
+       
+       <td>
+       <select  id="dp2" name="drop2">
+           <option value="bomm">BOM-MUMBAI</option>
+           <option value="dell">DEL-DELHI</option>
+           <option value="blrr">BLR-BENGALURU</option>
+           <option value="maaa">MAA-CHENNAI</option>
+           <option value="ccuu">CCU-KOLKATA</option>
+           <option value="hydd">HYD-HYDERABAD</option>
+           <option value="cokk">COK-KOCHI</option>
+           <option value="amdd">AMD-AHMEDABAD</option>
+           <option value="pnqq">PNQ-PUNE</option>
+           <option value="goii">GOI-GOA</option>
+        </select>
+       </td>   
+           
+       </tr>
+       
+       <tr>
+       
+       <td id="la3"><a><b>AIRLINE</b></a></td>
+       
+       <td>
+       <select  id="dp3" name="drop3">
+           <option value="ain">FWU</option>
+           <option value="spj">FWU-STAR</option>
+        </select>
+       </td>   
+       
+       <td id="la4"><a><b>CLASS</b></a></td>
+       
+       <td>
+       <select  id="dp4" name="drop4">
+           <option value="eco">ECONOMY</option>
+           <option value="bus">BUSINESS</option>
+           <option value="fir">FIRST CLASS</option>
+       </select>
+       </td>   
+       
+       </tr>
+       
+       <tr>
+       
+       <td id="la5"><a><b>DATE</b></a></td>
+       
+       <td><input type="text" id="txt1" placeholder=" DD/MM/YY" name="date"></td>
+       
+       <td id="la6"><a><b>NAME</b></a></td>
+       
+       <td><input type="text" id="txt2" placeholder=" e.g:- JOE " name="namee"/></td>
+       
+       </tr>
+           
+       </table>
+        
+       <input type="submit" id="but3" value="SEARCH FLIGHTS">
+       
+    </form>
+    
+  <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="cont.html" target="_blank">Contact</a></li>
+  <li><a href="booking.html">Your Bookings</a></li>
+  <li><a style="float:right;background-color: black">FLYWITHUS.com</a></li>
+  </ul>
+   
+    </body>
+</html>
